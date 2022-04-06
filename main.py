@@ -50,3 +50,6 @@ for item in sorted_items:
     print(f"${item[1]['price']}")
     print(item[1]['link'])
     print("--------------------------------------------------------------")
+
+if not items_found:
+    print("out of stock :(")
